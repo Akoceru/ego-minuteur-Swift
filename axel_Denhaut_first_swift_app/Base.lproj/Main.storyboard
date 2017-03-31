@@ -38,6 +38,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyD-Xi-D9C">
                                         <rect key="frame" x="118" y="0.0" width="35" height="30"/>
                                         <state key="normal" title="reset"/>
+                                        <connections>
+                                            <action selector="minuteurResetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIR-nF-zH4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
